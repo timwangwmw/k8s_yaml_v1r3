@@ -34,7 +34,7 @@ spec:
           appliveview-sample/app-live-view-connector-boot
           appliveview-sample/app-live-view-appflavours-boot
           appliveview-sample/app-live-view-systemproperties
-        developer.apps.tanzu.vmware.com/image-source-digest: index.docker.io/timwangvmw/tanzu-java-web-app-tap-play:latest@sha256:23e87458c2d8d874d4cacac476ad95c9848b34753d49e49bb62c398b931cb81e
+        developer.apps.tanzu.vmware.com/image-source-digest: dev/34837bb5581534352a2834c6698f673e0c6d0392
         developer.conventions/target-containers: workload
       labels:
         app.kubernetes.io/component: run
